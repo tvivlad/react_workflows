@@ -19,3 +19,12 @@ jobs:
         run: npm ci
       - name: lint app
         run: npm run lint
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: receive repository code
+        uses: actions/checkout@v4
+      - name: Install project dependencies
+        run: npm ci
+      - name: Building project
+        run: npm run build
