@@ -1,5 +1,9 @@
 name: Preparing react_app to deploy
-on: push
+on:
+  push:
+    braches:
+      - master
+
 jobs:
   test:
     runs-on: ubuntu-latest
