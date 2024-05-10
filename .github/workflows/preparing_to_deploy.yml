@@ -1,0 +1,12 @@
+name: Preparing react_app to deploy
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: receive repository code
+        uses: actions/checkout@v4
+      - name: Install project dependencies
+         run: npm ci
+      - name: Test application
+         run: npm run test
