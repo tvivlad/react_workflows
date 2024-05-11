@@ -1,8 +1,0 @@
-name: Pull request info
-on: workflow_dispatch
-jobs:
-  print:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print context 1
-        run: echo ${{toJson(github)}}
