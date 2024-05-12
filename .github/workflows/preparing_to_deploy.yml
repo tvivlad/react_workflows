@@ -1,10 +1,7 @@
 name: Preparing react_app to deploy
 on:
   push:
-    branches:
-      - master
-  pull_request:
-    branches:
+    braches:
       - master
 
 jobs:
