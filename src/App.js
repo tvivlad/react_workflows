@@ -17,7 +17,7 @@ function App() {
   }, [])
   return (
     <div>
-      <h4>Приложение о пользователях</h4>
+      <h4 style={{ color: 'red' }}>Приложение о пользователях</h4>
       <h3 style={{ color: 'green' }}>Карточка пользователя</h3>
       {showSubTitle && (
         <h4 data-testid='h4-id'>Подробная информация о пользователе</h4>
