@@ -3,8 +3,11 @@ on:
   push:
     branches:
       - master
-    path-ignore:
-      - './github/workflow/*'
+  pull_request:
+    branches:
+      - master
+  # path-ignore:
+  #   - './github/workflow/*'
 
 jobs:
   test:
