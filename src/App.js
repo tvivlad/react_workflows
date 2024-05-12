@@ -47,8 +47,6 @@ function App() {
           Ваш коментарий: <span data-testid='value-elem'>{value}</span>
         </h4>
         <button>Добавить</button>
-
-        <h2>Новый текст</h2>
       </div>
     </div>
   )
