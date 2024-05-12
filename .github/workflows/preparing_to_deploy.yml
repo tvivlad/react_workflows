@@ -1,4 +1,4 @@
-name: Preparing react_app to deploy
+name: Preparing react_app to deploy on server
 on:
   push:
     branches:
