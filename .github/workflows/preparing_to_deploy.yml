@@ -1,8 +1,10 @@
 name: Preparing react_app to deploy
 on:
   push:
-    braches:
+    branches:
       - master
+    path-ignore:
+      - './github/workflow/*'
 
 jobs:
   test:
